@@ -18,11 +18,11 @@ body {
     font-size:x-large;
     padding: .5rem;
     font-style: italic;
-    display: flexbox;
+   
 }
 textarea , #output {
     box-sizing: border-box;
-    display: flexbox;
+  
     min-height: 15vh;
     margin-top: 2rem;
     font-size: large;
