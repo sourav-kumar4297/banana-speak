@@ -1,0 +1,66 @@
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+    font-style: italic;
+}
+ 
+
+.nav {
+    background-color: #f2c94c;
+    text-align: center;
+    font-size:x-large;
+    padding: .5rem;
+    font-style: italic;
+    display: flexbox;
+}
+textarea , #output {
+    box-sizing: border-box;
+    display: flexbox;
+    min-height: 15vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+   margin: 2rem;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 4rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.outputTagLine{
+    text-align: center;
+}
+ 
+ footer {
+    display: flexbox;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--primary);
+        text-align: center;
+    }
+.about{
+    font-size:xx-large;
+}
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+    font-size: large;
+}
